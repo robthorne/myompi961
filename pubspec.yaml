@@ -1,0 +1,46 @@
+name: myompi961
+description: 10th iteration of OM-Pi. Verion 9 had issues on android and on chrome, so I found the last version that worked on all three (ios) included, and duplicated it to this version, thus 9.6.1. Starting over again on background, header etc etc. Quite a bit of file checking to startw tih for correct naming of the version to ensure app worked in ios, android and on Chrome.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.0
+  logger: ^1.3.0
+  permission_handler: ^11.3.1 
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  assets:
+    - assets/audio/audio1.wav
+    - assets/audio/audio2.wav
+    - assets/audio/audio3.wav
+    - assets/audio/audio4.wav
+    - assets/audio/audio5.wav
+    - assets/audio/audio6.wav
+    - assets/audio/audio7.wav
+    - assets/audio/audio8.wav
+    - assets/audio/audio9.wav
+    - assets/images/background1.jpg
+    - assets/images/image1.jpeg
+    - assets/images/image2.jpeg
+    - assets/images/image3.jpeg
+    - assets/images/image4.jpeg
+    - assets/images/image5.jpeg
+    - assets/images/image6.jpeg
+    - assets/images/image7.jpeg
+    - assets/images/image8.jpeg
+    - assets/images/image9.jpeg
+
+
+  uses-material-design: true
